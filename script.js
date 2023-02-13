@@ -220,7 +220,7 @@ btnLogin.addEventListener('click', function (e) {
   );
 
   if (currentAccount?.pin === +inputLoginPin.value) {
-    data.classList.add(`hidden`);
+    
 
     // Display UI and message
     labelWelcome.textContent = `Welcome back, ${
